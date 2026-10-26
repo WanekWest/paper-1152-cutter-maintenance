@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WearVision.Reliability.Experiments</RootNamespace>
+    <AssemblyName>WearVision.Reliability.Experiments</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WearVision.Reliability.Domain\WearVision.Reliability.Domain.csproj" />
+    <ProjectReference Include="..\WearVision.Reliability.Application\WearVision.Reliability.Application.csproj" />
+    <ProjectReference Include="..\WearVision.Reliability.Infrastructure\WearVision.Reliability.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

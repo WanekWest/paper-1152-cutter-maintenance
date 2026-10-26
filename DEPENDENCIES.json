@@ -1,0 +1,22 @@
+{
+  "python_integrity_and_statistics": {
+    "minimum": "3.10",
+    "third_party_packages": []
+  },
+  "dotnet": {
+    "target": "net8.0",
+    "sdk": "8.0.424",
+    "rollForward": "disable",
+    "external_installation_required": true
+  },
+  "tests": {
+    "package": "MSTest",
+    "version": "4.0.2",
+    "restore": "NuGet"
+  },
+  "optional_figure_utilities": {
+    "requirements": "analysis/requirements-figures.txt",
+    "fonts": "Arial/Arial Bold; not redistributed"
+  },
+  "scientific_execution": "No new T6 simulation was run during packaging; retained executable and evidence are supplied in the full Release asset"
+}

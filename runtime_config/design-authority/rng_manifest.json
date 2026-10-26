@@ -1,0 +1,22 @@
+{
+  "algorithm_id": "sha256-xoshiro256starstar-v1",
+  "bootstrap_stream_name": "BootstrapResample",
+  "common_random_number_coupling": "sha256-xoshiro256starstar-crn-v1",
+  "derivation_version": "sha256-length-prefixed-fields-little-endian-v1",
+  "fields": [
+    "MasterSeed",
+    "ExperimentId",
+    "ScenarioId",
+    "TrajectoryId",
+    "DecisionEpoch",
+    "PolicyOrActionId",
+    "StreamName",
+    "BatchIndex"
+  ],
+  "literal": "WEARVISION-1152-T6-2026-08-21",
+  "literal_sha256": "D14FB4AA049E03BE7F055C53C086FF50614D38F99320FD2BB42E00A5BD721E3A",
+  "master_seed_uint64": "13691961035017441233",
+  "schema_version": "er07a-rng-v1",
+  "t5_seed_reused": false,
+  "uint64_interpretation": "first eight SHA-256 digest bytes interpreted little-endian"
+}

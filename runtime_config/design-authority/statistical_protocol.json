@@ -1,0 +1,44 @@
+{
+  "alpha_family": 0.05,
+  "bootstrap": {
+    "bca": "SECONDARY_ONLY_IF_PREVALIDATED",
+    "confidence_level": 0.95,
+    "method": "stratified paired trajectory-cluster percentile",
+    "replicates": 9999,
+    "stream": "BootstrapResample"
+  },
+  "censoring": {
+    "complete_horizon": "direct binary scoring",
+    "informative_unresolved": "blocks calibration and affected claims",
+    "interval_censoring": "registered validated estimator else NotEvaluable",
+    "right_censoring": "prevalidated IPCW only under documented assumptions"
+  },
+  "multiplicity": "Holm step-down",
+  "planning_alpha": 0.016666666666666666,
+  "power": 0.8,
+  "primary_contrasts": [
+    "C-P-B7",
+    "C-P-B4",
+    "C-P-B1"
+  ],
+  "primary_difference_sign": "D_b = L(P-R4) - L(b); negative favors P-R4",
+  "primary_p_value": "two-sided paired t test on complete episode-level differences; raw and Holm-adjusted p-values",
+  "reliability_metrics": [
+    "Brier",
+    "log score where applicable",
+    "calibration curve/statistic",
+    "first-passage rate",
+    "constraint satisfaction"
+  ],
+  "repeated_decisions_clustered": true,
+  "reporting": [
+    "paired mean difference",
+    "paired median difference",
+    "95% confidence interval",
+    "raw and Holm-adjusted p-value",
+    "effect direction",
+    "failure/constraint context"
+  ],
+  "schema_version": "er07a-statistics-v1",
+  "statistical_unit": "component episode / trajectory"
+}

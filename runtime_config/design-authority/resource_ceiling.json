@@ -1,0 +1,18 @@
+{
+  "abort_semantics": "Fail closed; stop the authorized run and preserve partial immutable evidence if any ceiling is reached.",
+  "approved_peak_working_set_ceiling_bytes": 536870912,
+  "approved_storage_ceiling_bytes": 4294967296,
+  "approved_wall_clock_ceiling_seconds": 21600,
+  "measured_chance_evaluations": 2048,
+  "measured_raw_records": 139956,
+  "measured_storage_bytes": 47213685,
+  "measured_t5_episodes": 256,
+  "measured_wrapper_wall_clock_seconds": 584.739238,
+  "projected_chance_evaluation_count": 19968,
+  "projected_decision_count": 2496,
+  "projected_raw_records": 1364571,
+  "projected_storage_bytes": 460333429,
+  "projected_t6_episodes": 2496,
+  "projected_wall_clock_seconds": 5701.2075705,
+  "schema_version": "er07a-resource-v1"
+}

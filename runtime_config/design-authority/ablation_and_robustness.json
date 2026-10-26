@@ -1,0 +1,20 @@
+{
+  "active_ablation_ids": [
+    "ABL-1",
+    "ABL-2",
+    "ABL-5",
+    "ABL-6",
+    "ABL-8"
+  ],
+  "active_robustness_ids": [
+    "S1_MODERATE_SEVERITY",
+    "S2_HIGH_SEVERITY"
+  ],
+  "inherited_robustness_rows": "FROZEN_OUTSIDE_ALLOWLIST; no post-outcome addition",
+  "not_applicable": {
+    "ABL-3": "Q not modeled",
+    "ABL-4": "informative missingness absent",
+    "ABL-7": "event jumps disabled"
+  },
+  "schema_version": "er07a-ablation-robustness-v1"
+}

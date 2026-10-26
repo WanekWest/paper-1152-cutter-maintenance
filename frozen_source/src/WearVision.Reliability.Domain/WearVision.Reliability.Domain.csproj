@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>WearVision.Reliability.Domain</RootNamespace>
+    <AssemblyName>WearVision.Reliability.Domain</AssemblyName>
+  </PropertyGroup>
+</Project>

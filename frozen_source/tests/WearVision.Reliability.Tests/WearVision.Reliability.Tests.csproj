@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>WearVision.Reliability.Tests</RootNamespace>
+    <AssemblyName>WearVision.Reliability.Tests</AssemblyName>
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="4.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WearVision.Reliability.Domain\WearVision.Reliability.Domain.csproj" />
+    <ProjectReference Include="..\..\src\WearVision.Reliability.Application\WearVision.Reliability.Application.csproj" />
+    <ProjectReference Include="..\..\src\WearVision.Reliability.Infrastructure\WearVision.Reliability.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\WearVision.Reliability.Experiments\WearVision.Reliability.Experiments.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "SchemaVersion": "experiment-config-v1",
+  "ExperimentId": { "Value": "SEM-005" },
+  "ScenarioId": { "Value": "FX-DECISION-SELECTION" },
+  "Stage": "T4",
+  "ProfileKind": "TestFixtureOnly",
+  "AuthorizationReference": "ER05_TEST_ONLY",
+  "PracticalEffectMargin": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "stakeholder owner", "RequiredStage": "T6", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "RareEventHalfWidth": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "statistical owner", "RequiredStage": "T6", "EvidenceReference": "TEST_FIXTURE_ONLY" }
+}

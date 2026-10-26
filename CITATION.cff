@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the authors, title, version and actual published release URL when using these materials."
+title: "Data and code for Risk-Informed Maintenance Decision Support for Mining Machine Cutters under Imperfect Wear Monitoring and Prognostic Uncertainty"
+type: software
+version: "2026-10-21-audit1"
+authors:
+  - family-names: Brovchenko
+    given-names: "Ivan V."
+  - family-names: Mazakov
+    given-names: "Evgeny B."
+  - family-names: Gurko
+    given-names: "Andrey V."
+  - family-names: Matrokhina
+    given-names: "Kristina V."
+repository-code: "https://github.com/WanekWest/paper-1152-cutter-maintenance"

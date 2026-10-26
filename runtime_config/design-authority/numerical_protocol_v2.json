@@ -1,0 +1,21 @@
+{
+  "boundary_limitation": "Exact-boundary chance certification may invoke deterministic probability evaluation; this is a numerical certification mechanism, not an alternative reliability model.",
+  "chance_semantics_changed": false,
+  "epsilon": 0.125,
+  "epsilon_remaining": 0.125,
+  "fail_closed": true,
+  "failure_interval_method": "WilsonOneSided99",
+  "fallback_call_logging": "MANDATORY_SEPARATE_RECORD_PER_CALL",
+  "fallback_escalation_path_count": 976896,
+  "mc_batch_size": 2048,
+  "mc_maximum_paths": 1048576,
+  "mc_minimum_paths": 4096,
+  "probability_tolerance": 1e-12,
+  "protocol_version": "WV-1152-CHANCE-CERT-2",
+  "quadrature_absolute_tolerance": 1e-10,
+  "quadrature_relative_tolerance": 1e-8,
+  "schema_version": "er07a-numerical-binding-v1",
+  "selected_refinement": "DETERMINISTIC_FALLBACK",
+  "source_snapshot_sha256": "B5F8213FCBD5926D67C9FEA50F365C22F7BF6BB8A42201C1F1159C558B6E29CA",
+  "stable_batch_count": 3
+}

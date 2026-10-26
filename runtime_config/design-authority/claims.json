@@ -1,0 +1,40 @@
+{
+  "claims": [
+    {
+      "claim_boundary": "Methodological model-based S0 only; component episode/trajectory unit; no field or mine-wide inference.",
+      "claim_id": "CLAIM-1",
+      "evidence_class": "T6_MODEL_BASED_PRIMARY_SCIENTIFIC_EVIDENCE",
+      "maximum_claim": "A reliability-constrained decision policy has lower expected dimensionless disutility than the principal constrained/no-information baselines in S0_BASE only if the three frozen T6 contrasts support the stated direction and magnitude.",
+      "non_support_rule": "If a named contrast fails direction/interval/Holm criteria, omit that comparator from the claim; no global superiority wording.",
+      "required_contrasts": "C-P-B7;C-P-B4;C-P-B1",
+      "required_outcomes": "O1 primary; O2/O3 context",
+      "required_rows": "T6-S0-PRIMARY",
+      "support_rule": "For each named comparison asserted: D=L(P-R4)-L(B)<0, Holm-adjusted two-sided p<0.05, 95% paired cluster-bootstrap CI upper bound<0; practical magnitude is reported against Delta_star=0.03 without substituting p-values."
+    },
+    {
+      "claim_boundary": "Information action is monitoring; targeted inspection remains disabled in the frozen config; EVSI is diagnostic only.",
+      "claim_id": "CLAIM-2",
+      "evidence_class": "T6_MODEL_BASED_PRIMARY_PLUS_SECONDARY_MECHANISM_EVIDENCE",
+      "maximum_claim": "Explicit information action changes maintenance decisions while respecting the registered reliability constraint, only if T6 supports both decision change and constraint context.",
+      "non_support_rule": "If information action does not change decisions or constraint behavior is unsupported, state no resolved information-action claim.",
+      "required_contrasts": "P-R4 versus B7/ABL-1 diagnostic",
+      "required_outcomes": "O2;O3;O4; EVSI diagnostic",
+      "required_rows": "T6-S0-PRIMARY;T6-ABL1",
+      "support_rule": "Report nonzero information-action use and paired decision changes, with chance-constraint satisfaction/breach context and no objective augmentation by EVSI."
+    },
+    {
+      "claim_boundary": "No statement about real-world prevalence of severe beliefs or replacement frequency in a mining population.",
+      "claim_id": "CLAIM-3",
+      "evidence_class": "T6_MODEL_BASED_SECONDARY_ROBUSTNESS_EVIDENCE",
+      "maximum_claim": "Policy behavior shifts toward planned replacement as the predeclared degradation-belief severity increases from S0 through S1 and S2.",
+      "non_support_rule": "If ordering is absent, report the non-monotone result; do not add scenarios.",
+      "required_contrasts": "Predeclared descriptive trend; no primary superiority family",
+      "required_outcomes": "O4 replacement frequency; direct versus delayed replacement; O2/O3 context",
+      "required_rows": "T6-S0-PRIMARY;T6-S1-SEV050;T6-S2-SEV075",
+      "support_rule": "Replacement action frequency/action-region coverage must show the predeclared severity ordering with uncertainty reported; interpret as scenario robustness."
+    }
+  ],
+  "maximum_claim_count": 3,
+  "schema_version": "er07a-claims-v1",
+  "system_safety_boundary": "component-level indexed cutter position only; no whole-machine reliability, mine safety, personnel safety, or accident-reduction claim"
+}

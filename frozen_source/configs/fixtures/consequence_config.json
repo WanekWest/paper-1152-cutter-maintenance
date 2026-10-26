@@ -1,0 +1,6 @@
+{
+  "SchemaVersion": "consequence-config-v1",
+  "DefinitionVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "decision owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "WeightProfileId": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "stakeholder owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "Weights": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "stakeholder owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" }
+}

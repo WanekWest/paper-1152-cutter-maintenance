@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B801A7A7-6329-44AD-A8E6-461E41855779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearVision.Reliability.Domain", "src\WearVision.Reliability.Domain\WearVision.Reliability.Domain.csproj", "{8AB2A663-04C8-4484-8645-5F77C82B3843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearVision.Reliability.Application", "src\WearVision.Reliability.Application\WearVision.Reliability.Application.csproj", "{242E81B8-9A08-422F-825F-B28917E03AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearVision.Reliability.Infrastructure", "src\WearVision.Reliability.Infrastructure\WearVision.Reliability.Infrastructure.csproj", "{BE04F8D8-B605-49F5-9948-9284A424328C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearVision.Reliability.Experiments", "src\WearVision.Reliability.Experiments\WearVision.Reliability.Experiments.csproj", "{1201FACC-0595-4218-B43F-B746DBC45FCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{29DF39B2-5D94-405D-B57E-E3C5B7AAAE0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearVision.Reliability.Tests", "tests\WearVision.Reliability.Tests\WearVision.Reliability.Tests.csproj", "{DB57E60C-D4A7-47E7-A369-817B07C0BF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB2A663-04C8-4484-8645-5F77C82B3843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB2A663-04C8-4484-8645-5F77C82B3843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB2A663-04C8-4484-8645-5F77C82B3843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB2A663-04C8-4484-8645-5F77C82B3843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242E81B8-9A08-422F-825F-B28917E03AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242E81B8-9A08-422F-825F-B28917E03AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242E81B8-9A08-422F-825F-B28917E03AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242E81B8-9A08-422F-825F-B28917E03AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE04F8D8-B605-49F5-9948-9284A424328C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE04F8D8-B605-49F5-9948-9284A424328C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE04F8D8-B605-49F5-9948-9284A424328C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE04F8D8-B605-49F5-9948-9284A424328C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1201FACC-0595-4218-B43F-B746DBC45FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1201FACC-0595-4218-B43F-B746DBC45FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1201FACC-0595-4218-B43F-B746DBC45FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1201FACC-0595-4218-B43F-B746DBC45FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB57E60C-D4A7-47E7-A369-817B07C0BF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB57E60C-D4A7-47E7-A369-817B07C0BF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB57E60C-D4A7-47E7-A369-817B07C0BF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB57E60C-D4A7-47E7-A369-817B07C0BF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AB2A663-04C8-4484-8645-5F77C82B3843} = {B801A7A7-6329-44AD-A8E6-461E41855779}
+		{242E81B8-9A08-422F-825F-B28917E03AAA} = {B801A7A7-6329-44AD-A8E6-461E41855779}
+		{BE04F8D8-B605-49F5-9948-9284A424328C} = {B801A7A7-6329-44AD-A8E6-461E41855779}
+		{1201FACC-0595-4218-B43F-B746DBC45FCB} = {B801A7A7-6329-44AD-A8E6-461E41855779}
+		{DB57E60C-D4A7-47E7-A369-817B07C0BF24} = {29DF39B2-5D94-405D-B57E-E3C5B7AAAE0F}
+	EndGlobalSection
+EndGlobal

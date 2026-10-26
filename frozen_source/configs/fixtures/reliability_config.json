@@ -1,0 +1,8 @@
+{
+  "SchemaVersion": "reliability-config-v1",
+  "Horizon": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "Epsilon": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "risk owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "EpsilonRemaining": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "risk owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "FailureConfirmationRuleId": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "limit-state owner", "RequiredStage": "T6", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "CensoringStrategyId": { "HasValue": true, "Value": "direct-event-fixture-v1", "Status": "VERIFIED_FOR_TEST_FIXTURES", "Owner": "software QA", "RequiredStage": "T4", "EvidenceReference": "TEST_FIXTURE_ONLY" }
+}

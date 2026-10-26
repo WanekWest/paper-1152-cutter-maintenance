@@ -1,0 +1,11 @@
+{
+  "SchemaVersion": "compatibility-manifest-v1",
+  "ArchitectureVersion": "ER03-1152-R4",
+  "MathematicalModelVersion": "ER03-2026-08-20",
+  "ProtocolVersion": "ER04-2026-08-20",
+  "ComponentHashes": {
+    "state_space": "7EFA07661F3FE2615B969156AFC4BCC387A4B898A1C7741A47464B930AB4F42C",
+    "experiment_matrix": "78864430D8B2CFFFC3851A28891C45AE5AEC58EBD41D3D4BDFD269F273B7BB00",
+    "semantic_test_map": "9A9E9A32F726891FEE15E01CE3F14E84B7EF34AC490DE40930CA7F0B111F9EE5"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "SchemaVersion": "baseline-config-v1",
+  "EnabledBaselineIds": ["B0-RUN-TO-FAILURE", "B1-FIXED-INTERVAL", "B2-PERFECT-CURRENT-STATE-ORACLE", "B3-POSTERIOR-MEAN", "B4-POSTERIOR-QUANTILE", "B5-POINT-RUL", "B6-UNCONSTRAINED-ONE-STAGE", "B7-CONSTRAINED-ONE-STAGE"],
+  "TuningParameters": {},
+  "TuningPartition": "Design"
+}

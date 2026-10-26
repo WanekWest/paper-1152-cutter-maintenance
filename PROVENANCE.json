@@ -1,0 +1,36 @@
+{
+  "prepared_on": "2026-10-26",
+  "scientific_version": "2026-10-21-audit1",
+  "input_repository_zip": {
+    "name": "1152_GITHUB_REPOSITORY_CONTENTS_2026-10-22.zip",
+    "sha256": "a3d0256a036d338a321844eb1e079e80674a8f105ab838bcd702a60bd31a7939"
+  },
+  "full_release": {
+    "file": "1152_DATA_CODE_RELEASE_2026-10-21.zip",
+    "bytes": 162827486,
+    "sha256": "11b577097cd937deb221c8b837b61ce7374d812b1fc7f48b0742329f5d61af21",
+    "scientific_version": "2026-10-21-audit1",
+    "suggested_tag": "1152-2026-10-21-audit1",
+    "published_url": null,
+    "status": "Prepared locally; public release not yet created"
+  },
+  "frozen_source_files_compared_to_original_authority": 108,
+  "frozen_source_unchanged": true,
+  "runtime_config_files": 52,
+  "runtime_config_archive_sha256": "a565b489e3a09f903a80f3a4e466f5331a4873e5c6b1fa179cd6ad1373e28598",
+  "source_authority_archive_sha256": "9171a598e6b441041463a88abb39ccb6705ee86265b43d601e07f4cabdec5621",
+  "changes": [
+    "Expanded retained runtime configuration into runtime_config/",
+    "Updated wrapper documentation, integrity tooling and citation metadata; retained original source/configuration bytes"
+  ],
+  "new_scientific_runs": false,
+  "fresh_dotnet_build_claimed": false,
+  "public_upload_performed": false,
+  "new_license_grant": false,
+  "official_github_sources_checked_on": "2026-10-26",
+  "official_github_sources": [
+    "https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository",
+    "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+    "https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository"
+  ]
+}

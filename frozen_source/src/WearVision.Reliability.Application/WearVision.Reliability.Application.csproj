@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>WearVision.Reliability.Application</RootNamespace>
+    <AssemblyName>WearVision.Reliability.Application</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WearVision.Reliability.Domain\WearVision.Reliability.Domain.csproj" />
+  </ItemGroup>
+</Project>

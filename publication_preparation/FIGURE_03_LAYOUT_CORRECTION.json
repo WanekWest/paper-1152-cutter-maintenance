@@ -1,0 +1,14 @@
+{
+  "scope": "Wrap overflowing final claim label; preserve all scientific words and diagram connections",
+  "source_sha256": "0756a5d8cea20ebcf937c06463a36e55221b0890beded26efc0236e0f1773fba",
+  "svg_sha256": "da41f339f4cffd7ed8bce0f5c16bf0c18ae5bbf33f42e283d50c2b5787a0aa3c",
+  "png_sha256": "69f58329d059b2ccfdd7bad40e85088d91d595136af0e0c2c8a9ff76576b7b7f",
+  "tiff_sha256": "fc062ff24d64f6321a8be4af498e793e2a2dd1a87a12b7ea3f6274f453068a6d",
+  "pixels": [
+    6050,
+    3403
+  ],
+  "dpi": 1000,
+  "label_bounds": "pass",
+  "raster_engine": "Pillow, system Arial/Arial Bold; fonts not redistributed"
+}

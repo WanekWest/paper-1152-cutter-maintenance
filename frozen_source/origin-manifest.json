@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "er05-origin-v1",
+  "task": "ER-05 — 1152 R4 implementation and T0–T4 QA",
+  "workspace": "C:/Users/brovi/.codex/workspaces/WearVision_ER05_2026-08-20",
+  "evidenceRoot": "C:/Users/brovi/.codex/outputs/WearVision_ER05_2026-08-20/evidence",
+  "protectedRoot": "E:/WearVision",
+  "protectedSourceModified": false,
+  "targetFramework": "net8.0",
+  "portableSdk": "8.0.424",
+  "portableSdkInstallScriptSha256": "E8B873E18A81E5C4CD8AB69D84DAC8FEAD291D50B3C44633CD7FDDAD709A13D6",
+  "systemSdkAtStart": "none",
+  "systemRuntimeAtStart": "9.0.19",
+  "nugetCacheAtStart": "absent",
+  "authorityHashInventory": "authorities.sha256",
+  "legacyPolicy": "read-only hash verification; no project or assembly reference",
+  "authorizedExecution": ["T0", "T1", "T2", "T3", "T4"],
+  "forbiddenExecution": ["T5", "T6", "manuscript-artifact-generation"]
+}

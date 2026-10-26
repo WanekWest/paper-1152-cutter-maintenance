@@ -1,0 +1,56 @@
+{
+  "action_metrics": [
+    "continue",
+    "monitoring",
+    "replacement",
+    "inspection_if_active",
+    "monitoring_terminal_action",
+    "direct_replacement",
+    "delayed_replacement"
+  ],
+  "actions": [
+    "Continue",
+    "IntensifiedMonitoring",
+    "PlannedReplacement"
+  ],
+  "consequence": {
+    "definition_version": "bounded-five-component-binary-plus-normalized-downtime-t5-v1",
+    "weight_profile_id": "methodological-stress-t5-owner-approved-v1",
+    "weight_profile_sha256": "C0F1C71878F378134D266B937D3B3EE67D7E6533D166ED4C9E3EC4C1ED8169B2",
+    "weights": {
+      "Downtime": 0.15,
+      "Failure": 0.47,
+      "IntensifiedMonitoring": 0.09,
+      "PlannedReplacement": 0.21,
+      "TargetedInspection": 0.08
+    }
+  },
+  "corrective_replacement": "POST_FAILURE_CONSEQUENCE_ONLY",
+  "diagnostic_policies": [
+    "B6"
+  ],
+  "evsi": {
+    "added_to_objective": false,
+    "role": "DIAGNOSTIC_ONLY",
+    "same_consequence_scale": true,
+    "same_horizon": true
+  },
+  "outcomes": {
+    "O1": "expected dimensionless disutility",
+    "O2": "failure/first-passage rate",
+    "O3": "chance-constraint satisfaction/breach",
+    "O4": "action frequency and information-action use",
+    "O5": "calibration/reliability diagnostics"
+  },
+  "primary_policies": [
+    "P-R4",
+    "B7",
+    "B4",
+    "B1"
+  ],
+  "schema_version": "er07a-policy-outcome-v1",
+  "targeted_inspection": {
+    "enabled": false,
+    "reason": "Frozen owner-approved action config; retain schema lineage only"
+  }
+}

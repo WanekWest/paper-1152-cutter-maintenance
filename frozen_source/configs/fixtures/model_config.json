@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": "model-config-v1",
+  "ProfileKind": "TestFixtureOnly",
+  "StateSpaceId": "scalar-analytical-fixture-v1",
+  "ExposureClockId": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "ExposureUnit": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T6", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "PosteriorVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "posterior owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "TransitionVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "degradation owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "RoutineObservationVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "sensing owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "MonitorObservationVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "sensing owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "InspectionObservationVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "inspection owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "LimitStateVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "limit-state owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "ResetVersion": { "HasValue": false, "Value": null, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "maintenance owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+  "EventJumpsEnabled": false
+}

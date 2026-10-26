@@ -1,0 +1,5 @@
+{
+  "SchemaVersion": "retirement-denylist-v1",
+  "PathFragments": ["reproducible-synthetic-study", "r3-results"],
+  "Sha256Hashes": ["AEA5310EB95A70F90A15B8271198ED1A4D2BE9A0F74AF51D93C075C532420CB5"]
+}

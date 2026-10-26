@@ -1,0 +1,11 @@
+{
+  "SchemaVersion": "action-config-v1",
+  "Enabled": { "Continue": true, "IntensifiedMonitoring": true, "TargetedInspection": true, "PlannedReplacement": true },
+  "Durations": {
+    "Continue": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+    "IntensifiedMonitoring": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+    "TargetedInspection": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" },
+    "PlannedReplacement": { "HasValue": false, "Value": 0.0, "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" }
+  },
+  "InspectionMode": { "HasValue": false, "Value": "Paused", "Status": "[AUTHOR DATA REQUIRED]", "Owner": "operations owner", "RequiredStage": "T5", "EvidenceReference": "TEST_FIXTURE_ONLY" }
+}

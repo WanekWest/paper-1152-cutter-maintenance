@@ -1,0 +1,7 @@
+{
+  "SchemaVersion": "split-manifest-v1",
+  "Assignments": [
+    { "GroupId": "TRJ-FIXTURE-001", "Partition": "Design" },
+    { "GroupId": "TRJ-FIXTURE-002", "Partition": "LockedTest" }
+  ]
+}

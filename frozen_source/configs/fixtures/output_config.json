@@ -1,0 +1,7 @@
+{
+  "SchemaVersion": "output-config-v1",
+  "DestinationRoot": "C:/Users/brovi/.codex/workspaces/WearVision_ER05_2026-08-20/evidence/fixture-runs",
+  "RawFormat": "CSV",
+  "ManifestFormat": "JSON",
+  "CompressionEnabled": false
+}

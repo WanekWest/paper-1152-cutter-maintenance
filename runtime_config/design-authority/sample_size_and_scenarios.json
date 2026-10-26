@@ -1,0 +1,98 @@
+{
+  "active_ablation_count": 5,
+  "alpha_family": 0.05,
+  "alpha_plan": 0.016666666666666666,
+  "bootstrap_replicates": 9999,
+  "delta_star": 0.03,
+  "h_star": 0.015,
+  "h_star_definition": "Desired half-width of a two-sided 95% Wilson interval for the failure/first-passage probability (ER-04 semantics)",
+  "n_ablation": 256,
+  "n_contrast": 285,
+  "n_incomplete_adjusted": 285,
+  "n_primary_final": 704,
+  "n_primary_raw": 659,
+  "n_rare_event": 659,
+  "n_robustness": 256,
+  "n_total": 2496,
+  "p_fail_plan": 0.0390625,
+  "power": 0.8,
+  "primary_scenario": "S0_BASE",
+  "q_incomplete": 0,
+  "robustness_count": 2,
+  "rounding_block": 64,
+  "scenario_rows": [
+    {
+      "episode_count": 704,
+      "p_high": 0.25,
+      "policies": "P-R4;B7;B4;B1;B6_DIAGNOSTIC",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-S0-PRIMARY",
+      "scenario": "S0_BASE"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.5,
+      "policies": "P-R4;B7;B4;B1;B6_DIAGNOSTIC",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.50,0.50]",
+      "row_id": "T6-S1-SEV050",
+      "scenario": "S1_MODERATE_SEVERITY"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.75,
+      "policies": "P-R4;B7;B4;B1;B6_DIAGNOSTIC",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.25,0.75]",
+      "row_id": "T6-S2-SEV075",
+      "scenario": "S2_HIGH_SEVERITY"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.25,
+      "policies": "P-R4;ABL-1_EQUIVALENT_B7",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-ABL1",
+      "scenario": "S0_BASE__ABL1_NO_ENDOGENOUS_INFORMATION"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.25,
+      "policies": "P-R4;ABL-2_POSTERIOR_MEAN",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-ABL2",
+      "scenario": "S0_BASE__ABL2_POSTERIOR_MEAN"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.25,
+      "policies": "P-R4;ABL-5_EQUIVALENT_B6",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-ABL5",
+      "scenario": "S0_BASE__ABL5_NO_RELIABILITY_CONSTRAINT"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.25,
+      "policies": "P-R4;ABL-6_POINT_RESET_0.0875",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-ABL6",
+      "scenario": "S0_BASE__ABL6_POINT_RESET"
+    },
+    {
+      "episode_count": 256,
+      "p_high": 0.25,
+      "policies": "P-R4;ABL-8_SAFETY_DIAGNOSTIC",
+      "posterior_support": "[0.2,0.8]",
+      "posterior_weights": "[0.75,0.25]",
+      "row_id": "T6-ABL8",
+      "scenario": "S0_BASE__ABL8_NO_BRANCHWISE_EPSILON_REM"
+    }
+  ],
+  "schema_version": "er07a-sample-scenario-v1"
+}

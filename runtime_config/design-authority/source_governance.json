@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "925DF401D0606EE51767D6BC209829BF7E381054FA3F20D35CC6367B9EAAC6E9",
+  "gate": "PASS",
+  "hierarchy": [
+    "ORDER_1628_09_12_2025",
+    "2026_PUBLICATION_MEMO",
+    "2026_EXPERTISE_REGULATION",
+    "2026_PRIMARY_INFORMATION_TEMPLATE",
+    "ORDER_47_2021_SUPERSEDED"
+  ],
+  "metrics": {
+    "doi_edn_complete": true,
+    "max_one_journal_share": 7.894736842105263,
+    "max_one_organization_share": 23.68421052631579,
+    "max_same_author_references": 2,
+    "qualifying_peer_reviewed_share": 100,
+    "reference_count": 38,
+    "self_citation_count": 0,
+    "spmi_zgi_share": 23.68421052631579,
+    "zgi_share": 7.894736842105263
+  },
+  "ress_submission_allowed_only_after_upd_expertise": true,
+  "schema_version": "er07a-upd-source-governance-v1"
+}

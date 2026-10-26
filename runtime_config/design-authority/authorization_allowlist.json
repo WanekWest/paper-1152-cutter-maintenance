@@ -1,0 +1,18 @@
+{
+  "authorization_id": "ER07A-1152-T6-20260821-EXACT-ROWS-V1",
+  "authorized_rows": [
+    "T6-S0-PRIMARY",
+    "T6-S1-SEV050",
+    "T6-S2-SEV075",
+    "T6-ABL1",
+    "T6-ABL2",
+    "T6-ABL5",
+    "T6-ABL6",
+    "T6-ABL8"
+  ],
+  "execution_command_present": false,
+  "execution_started": false,
+  "schema_version": "er07a-allowlist-v1",
+  "state": "READY_NOT_CONSUMED",
+  "wildcard": false
+}

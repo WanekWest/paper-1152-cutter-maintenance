@@ -1,0 +1,6 @@
+row_id,n,mean_control_minus_ablated,median,SD,MAD_scale,CI95_low,CI95_high,semantics
+T6-ABL1,256,-0.03651367187499998,-0.14999999999999997,0.1314046150314459,0.0,-0.052027099609374974,-0.020321533203125,Disable endogenous information policies; paired against unchanged P-R4 control
+T6-ABL2,256,0.22109863281249997,0.10124999999999999,0.1497926517481125,0.15011324999999998,0.20281494140624998,0.23957104492187498,Replace full belief by its mean-preserving degenerate belief; paired against unchanged P-R4 control
+T6-ABL5,256,0.125087890625,0.10124999999999999,0.1674816117792056,0.0,0.10446215820312499,0.1458544921875,Disable reliability constraint in policy selection only; paired against unchanged P-R4 control
+T6-ABL6,256,0.0,0.0,0.0,0.0,0.0,0.0,Replace reset distribution by mean-matched point reset 0.0875; paired against unchanged P-R4 control
+T6-ABL8,256,0.010327148437500008,0.0,0.1387391018693828,0.15011325,-0.00647119140624999,0.027456787109374995,Remove branchwise epsilon-remaining rule only; retain epsilon and registered epsilon_remaining in lineage

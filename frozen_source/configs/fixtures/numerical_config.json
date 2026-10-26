@@ -1,0 +1,8 @@
+{
+  "SchemaVersion": "numerical-config-v1",
+  "ToleranceRegistryHash": "2E1EEFB459F920BEB6D70F21D7F6C9BB092E4ACD8012B481233BBEEA11F31E62",
+  "RngSchemeId": "sha256-xoshiro256starstar-v1",
+  "MasterSeed": 81985529216486895,
+  "Settings": { "ProfileId": "TEST_FIXTURE_ONLY-SMALL", "MinimumPaths": 4, "BatchSize": 2, "MaximumPaths": 12, "RequiredStableBatches": 3, "ConfidenceLevel": 0.99, "ProbabilityTolerance": 1e-12, "TieTolerance": 1e-12, "TestFixtureOnly": true },
+  "MaximumDegreeOfParallelism": 2
+}

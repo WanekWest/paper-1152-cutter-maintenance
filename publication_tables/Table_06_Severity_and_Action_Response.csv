@@ -1,0 +1,4 @@
+row_id,P_x_high,episodes,monitoring_rate,planned_replacement_rate,replacement_CI95_low,replacement_CI95_high,direct_replacement_rate,delayed_replacement_rate,first_passage_rate,constraint_violation_rate
+T6-S0-PRIMARY,0.25,704,0.9090909090909091,0.36079545454545453,0.32616507527760125,0.39693676121761096,0.0,0.36079545454545453,0.05539772727272727,0.0
+T6-S1-SEV050,0.5,256,0.0,1.0,0.9852161435741286,0.9999999999999999,1.0,0.0,0.0,0.0
+T6-S2-SEV075,0.75,256,0.0,1.0,0.9852161435741286,0.9999999999999999,1.0,0.0,0.0,0.0

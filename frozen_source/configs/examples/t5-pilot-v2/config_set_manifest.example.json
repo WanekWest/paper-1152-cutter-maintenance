@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": "config-set-v2",
+  "ConfigSetId": "EXAMPLE-NOT-LOADABLE",
+  "ProfileKind": "T5Pilot",
+  "ScientificUse": "STRUCTURAL_EXAMPLE_ONLY",
+  "AuthorizedStage": "T5",
+  "CanonicalizationVersion": "canonical-json-v1-utf8-no-bom",
+  "ApprovalStatus": "NotApproved",
+  "OwnerId": "OWNER_APPROVAL_REQUIRED",
+  "CreatedById": "DOCUMENTATION_EXAMPLE",
+  "UnresolvedPlaceholders": ["OWNER_VALUES", "RESOURCE_CEILINGS", "T5_AUTHORIZATION"],
+  "Files": []
+}

@@ -1,0 +1,72 @@
+{
+  "authorization_id": "ER07A-1152-T6-20260821-EXACT-ROWS-V1",
+  "canonicalization": "recursive-key-sort; UTF-8; LF; terminal newline",
+  "config_set_id": "ER07A-1152-T6-CONFIG-20260821-V1",
+  "created_date": "2026-08-21",
+  "execution_started": false,
+  "members": [
+    {
+      "bytes": 461,
+      "relative_path": "ablation_and_robustness.json",
+      "sha256": "23D6B55ED5FC7D357D8EEAE76343BB8A2DC311995F9C472D7C466987857D2B51"
+    },
+    {
+      "bytes": 1348,
+      "relative_path": "authority_binding.json",
+      "sha256": "C5A678A4EE69455E8386D12BA04F29D0A598495DCD912EDD72720537600B4042"
+    },
+    {
+      "bytes": 392,
+      "relative_path": "authorization_allowlist.json",
+      "sha256": "9EE9DD99CA617A1DA574D2829714AC3BE8C780F685866F5CFF1A8379C5ECB8A1"
+    },
+    {
+      "bytes": 3250,
+      "relative_path": "claims.json",
+      "sha256": "503A3E82AA6A7272CB5BD0B39A95C1E0C5597C9E27E348FD03B312A024D9EE6B"
+    },
+    {
+      "bytes": 939,
+      "relative_path": "numerical_protocol_v2.json",
+      "sha256": "4B2165B7D4C142EA76C93004C162562023FDA3817AA593979DABEEB6FDFAA64A"
+    },
+    {
+      "bytes": 468,
+      "relative_path": "output_policy.json",
+      "sha256": "F67892F73424123B7215CD761EA81011947BC820EB14003A65780D73E8D48DDA"
+    },
+    {
+      "bytes": 1502,
+      "relative_path": "policies_actions_outcomes.json",
+      "sha256": "43E749B235DF2E66B2D64429EB169DF673D199EEA600CF55CBA2C23F78A9862C"
+    },
+    {
+      "bytes": 758,
+      "relative_path": "resource_ceiling.json",
+      "sha256": "291227C1EB14D265EF9CED1A62E146937DEFE639BB7921887940D13AF52A5BA1"
+    },
+    {
+      "bytes": 755,
+      "relative_path": "rng_manifest.json",
+      "sha256": "BFBB8E52AB789555A5D11CCCD1C21726B9197976DD17EDCFF041BA5E8D054BB6"
+    },
+    {
+      "bytes": 2876,
+      "relative_path": "sample_size_and_scenarios.json",
+      "sha256": "AE8210B832055CF1F872564328472D54FB57C8CA44C58DA43AA78645DEDC808F"
+    },
+    {
+      "bytes": 772,
+      "relative_path": "source_governance.json",
+      "sha256": "7A6A503ABE18A8D14D2197D54ACBD9B677E34B26FB6639B968EB626A87C6D796"
+    },
+    {
+      "bytes": 1421,
+      "relative_path": "statistical_protocol.json",
+      "sha256": "79951068A6338E577E60C8087647A7CDEDD51539443A40F45982C7588D7C6AEF"
+    }
+  ],
+  "numerical_protocol_version": "WV-1152-CHANCE-CERT-2",
+  "schema_version": "er07a-config-set-manifest-v1",
+  "source_snapshot_sha256": "B5F8213FCBD5926D67C9FEA50F365C22F7BF6BB8A42201C1F1159C558B6E29CA"
+}

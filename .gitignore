@@ -1,0 +1,18 @@
+# Build outputs and local environments
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+.vs/
+.dotnet/
+.nuget/
+.venv/
+.env
+.env.*
+# Full evidence is distributed as a separate Release asset.
+/T6_evidence/
+/runtime_authority/
+/exact_authority_archives/
+/analysis_replay/
+/release_assets/
+*.zip

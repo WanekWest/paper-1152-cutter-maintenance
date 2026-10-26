@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "er05a-addendum-origin-v1",
+  "task": "ER-05A — T5 runtime configuration binding, two-stage evaluation and planning harness addendum",
+  "workspace": "C:/Users/brovi/.codex/workspaces/WearVision_ER05A_2026-08-20",
+  "sourceOriginZip": "C:/Users/brovi/.codex/outputs/WearVision_ER05_2026-08-20/ER-05_1152_R4_SOURCE_SNAPSHOT_2026-08-20.zip",
+  "sourceOriginZipSha256": "B641E9A6C8B60087DDEC2897522DFBEC5583600404644ABE01257E2C10FEA9DA",
+  "er06aCandidateOriginZip": "C:/Users/brovi/.codex/outputs/WearVision_ER06A_2026-08-20/ER-06A_1152_T5_PILOT_CANDIDATE_CONFIG_SET_2026-08-20.zip",
+  "er06aCandidateOriginZipSha256": "245FF84EFE40F5B3E10505C8B395E94E73E58F8DC91288C3A7CDD75164F79C01",
+  "targetFramework": "net8.0",
+  "sdk": "8.0.424",
+  "implementationScope": ["GAP-01", "GAP-02", "GAP-03", "GAP-04", "GAP-05", "GAP-06", "GAP-07", "GAP-08", "GAP-09", "GAP-10"],
+  "authorizedExecution": ["build", "tests", "T0-T4 regression", "TEST_FIXTURE_ONLY analytical execution", "T5 static load-bind-preflight"],
+  "forbiddenExecution": ["T5 numerical pilot", "T6", "manuscript artifact generation", "scientific result generation"],
+  "ownerValuesApproved": false,
+  "er06bAuthorized": false,
+  "protectedRoot": "E:/WearVision",
+  "protectedSourceModified": false
+}

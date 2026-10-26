@@ -1,0 +1,11 @@
+element,frozen_definition,T6_status,decision_role
+Proposed policy,"Reliability-constrained two-stage Bayesian information-action policy, denoted P-R4",active,Reader-facing method identifier
+System boundary,One indexed cutter position,active,Component-level maintenance decision; no machine-wide inference
+Latent wear state,"Dimensionless scalar state; S0 support [0.2, 0.8]",active,Posterior belief propagated under exposure
+Functional limit,Boundary 0.8375; first-passage g≤0,active,Failure definition and reliability outcome
+Continue,No immediate intervention,enabled,Routine observation and continued exposure
+Intensified monitoring,Binary information action; duration 0.075,enabled,Bounded Bayesian information action
+Targeted inspection,Binary information action; duration 0.175,disabled,Retained in schema; not selected in T6
+Planned replacement,Terminal action; duration 0.275,enabled,Closes the component episode
+Reliability constraint,ε=0.125; εrem=0.125,active,Overall and branchwise first-passage control
+Expected disutility,Five bounded components with frozen methodological-stress weights,active,Objective J; EVSI excluded

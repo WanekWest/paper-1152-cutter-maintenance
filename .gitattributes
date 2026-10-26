@@ -1,0 +1,2 @@
+# Preserve exact scientific source/configuration hashes across Git checkouts.
+* -text
