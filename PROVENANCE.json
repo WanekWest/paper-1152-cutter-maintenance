@@ -25,12 +25,21 @@
   ],
   "new_scientific_runs": false,
   "fresh_dotnet_build_claimed": false,
-  "public_upload_performed": false,
+  "public_upload_performed": true,
   "new_license_grant": false,
   "official_github_sources_checked_on": "2026-10-26",
   "official_github_sources": [
     "https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository",
     "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
     "https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository"
-  ]
+  ],
+  "public_release": {
+    "url": "https://github.com/WanekWest/paper-1152-cutter-maintenance/releases/tag/1152-2026-10-21-audit1",
+    "published_on": "2026-10-26",
+    "asset_sha256": "11b577097cd937deb221c8b837b61ce7374d812b1fc7f48b0742329f5d61af21",
+    "anonymous_asset_access_verified": {
+      "http_status": 200,
+      "content_length": 162827486
+    }
+  }
 }

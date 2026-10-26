@@ -49,8 +49,12 @@ current top-level instructions for this distribution.
 
 ## Full data and retained runtime: download the Release asset
 
+Published release (26 October 2026): https://github.com/WanekWest/paper-1152-cutter-maintenance/releases/tag/1152-2026-10-21-audit1
+
+Direct complete-data download: https://github.com/WanekWest/paper-1152-cutter-maintenance/releases/download/1152-2026-10-21-audit1/1152_DATA_CODE_RELEASE_2026-10-21.zip
+
 The complete retained dataset is **not** inside this small source tree.
-Attach `1152_DATA_CODE_RELEASE_2026-10-21.zip` to the GitHub Release, together with
+Download `1152_DATA_CODE_RELEASE_2026-10-21.zip` from the GitHub Release, together with
 `COMPLETE_RELEASE.sha256`. The archive is **162,827,486 bytes** and includes
 the complete 2,496-episode evidence, eight frozen rows, retained runtime,
 configuration authorities, raw records and analysis/figure sources.
